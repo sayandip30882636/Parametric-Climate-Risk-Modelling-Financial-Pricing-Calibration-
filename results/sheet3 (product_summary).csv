@@ -1,0 +1,12 @@
+Parameter,Value,Unit/Notes
+Sum Insured (SI) per Acre,50000,INR
+Target Premium Rate,5%,of Sum Insured
+Target Premium Amount,2500,INR
+Model Calibration Error,0.00 INR (Perfect Match),Difference between Target & Model
+--- PRODUCT STRUCTURE ---,,
+Trigger 1 (Moderate Risk),> 60 mm,Cumulative October Rainfall
+Payout 1,5000,INR
+Trigger 2 (Severe Risk),> 70 mm,Cumulative October Rainfall
+Payout 2,8000,INR
+Trigger 3 (Catastrophic Risk),> 80 mm,Cumulative October Rainfall
+Payout 3,12000,INR (Calibrated Down from 12.5k)
